@@ -41,7 +41,7 @@ export default component$((props: Props) => {
   <a href="https://t.me/kspr_home_bot?start=WdRcvw" target="_blank">
     <img width="720" height="332" src="/images/ksprbot.png" alt="KSPR Bot" class="w-full h-48 object-cover rounded-md hover:opacity-80"/>
   </a>
-  <a href="https://krc20.chainge.finance/liquidity?symbol=KOIN" target="_blank">
+  <a href="https://dapp.chainge.finance/?fromChain=KAS&toChain=KAS&fromToken=KAS&toToken=KOIN_krc20" target="_blank">
     <img width="2400" height="1260" src="/images/chainge.png" alt="Chainge" class="w-full h-48 object-cover rounded-md hover:opacity-80"/>
   </a>
   <a href="https://www.kaspiano.com/token/koin?ref=koin" target="_blank">
