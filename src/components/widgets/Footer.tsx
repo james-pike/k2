@@ -111,7 +111,7 @@ export default component$(() => {
 
           <div class="text-sm text-gray-700 mr-4 dark:text-slate-400 flex items-center">
 
-            <span class="hidden sm:block"> Donate<span class="text-primary mx-1">♥</span> kaspa:qz05sf3dfzefkz3dwdnh02ejyd6rtwuee6pck25m0tsyqfgz4ltjqst9wgda9</span>
+            <span class="hidden sm:block"> Donate<span class="text-primary mx-1">♥</span> kaspa:qqjhak2dd3zclg57yv9jwpprusx43z39zp5842dw3msdu23e7gres3auze60d</span>
           </div>
         </div>
       </div>
