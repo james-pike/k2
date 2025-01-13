@@ -9,7 +9,7 @@ export default component$(() => {
     <PageWrapper>
       <Headline
         title={"KOIN Roadmap"}
-        subtitle={"Our community has big plans and a solid plan for success."}
+        subtitle={"Our community has big plans and a solid path for success."}
         highlight={"Roadmap"}
       />
       {/* Page content goes here */}
