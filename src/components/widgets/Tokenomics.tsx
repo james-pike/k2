@@ -18,7 +18,7 @@ export default component$(() => {
 
 <section class="bg-white dark:bg-gray-900">
 <div class=" mx-auto  ">
-<div class="py-2  mx-auto bg-gray-200 dark:bg-gray-900  lg:py-2 lg:px-2">
+<div class="py-2  mx-auto  dark:bg-gray-900  lg:py-2 lg:px-2">
  
   <Stats/>
 
