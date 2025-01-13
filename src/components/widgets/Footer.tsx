@@ -19,9 +19,10 @@ export default component$(() => {
     {
       title: "Exchanges",
       items: [
-        { title: "KSPR Bot", href: "https://t.me/kspr_home_bot?start=WdRcvw" },
-        { title: "Kaspiano", href: "https://www.kaspiano.com/token/koin?ref=koin" },
         { title: "Chainge", href: "https://dapp.chainge.finance/?fromChain=KAS&toChain=KAS&fromToken=KAS&toToken=KOIN_krc20" },
+        { title: "Kaspiano", href: "https://www.kaspiano.com/token/koin?ref=koin" },
+        { title: "KRC20 Swap", href: "https://krc20swap.com" },
+        { title: "KSPR Bot", href: "https://t.me/kspr_home_bot?start=WdRcvw" },
 
       ],
     },

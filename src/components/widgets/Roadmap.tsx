@@ -1,36 +1,43 @@
 import { component$ } from '@builder.io/qwik';
+import { Headline } from '../ui/Headline';
+import { PageWrapper } from '../common/PageWrapper';
 import { Image } from "@unpic/qwik";
-
 
 export default component$(() => {
   return (
-    <div class="relative bg-white/80 dark:bg-gray-900/80 overflow-hidden flex items-center justify-center mx-1.5 mt-1 sm:mb-2 rounded-md">
-    <section class="relative rounded-md not-prose mx-1 my-1 bg-white/75 dark:bg-gray-900/90">
+    <div>
+    <PageWrapper>
+      <Headline
+        title={"KOIN Roadmap"}
+        subtitle={"Our community has big plans and a solid plan for success."}
+        highlight={"Roadmap"}
+      />
+      {/* Page content goes here */}
+    </PageWrapper>
 
-    <Image
-    src="/images/roadmap.jpg"
-    layout="constrained"
-    width={1920}
-    height={1080}
-    alt="Full-Width Hero Image"
-    class="w-full h-auto object-cover rounded-sm"
-    priority={true}
-  />
-<div class="h-2 bg-white/90 dark:bg-gray-900/90"></div>
-<Image
-     
-     src="/images/ranks.jpg"
-     layout="constrained"
-     width={1920}
-     height={1080}
-     alt="Qwind Hero Image (Cool dog)"
-     class="mx-auto w-full h-auto rounded-md"
-     priority={true}
-     breakpoints={[320, 480, 640, 768, 1024]}
-   />
+<section class="bg-white dark:bg-gray-900">
+<div class=" mx-auto  ">
+<div class="py-2  mx-auto bg-gray-200 dark:bg-gray-900  lg:py-2 lg:px-2">
+ 
   
-  </section>
-  </div>
+ <Image
+src="/images/roadmap.jpg"
+layout="constrained"
+width={1920}
+height={1080}
+alt="Full-Width Hero Image"
+class="w-full h-auto object-cover rounded-sm"
+priority={true}
+/>
 
+
+  </div>
+</div>
+
+</section>
+</div>
   );
 });
+
+
+

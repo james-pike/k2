@@ -1,14 +1,26 @@
 import { component$ } from '@builder.io/qwik';
+import { Headline } from '../ui/Headline';
+import { PageWrapper } from '../common/PageWrapper';
 import { Image } from "@unpic/qwik";
-import Stats from './Stats';
-
 
 export default component$(() => {
   return (
-    <div class="relative bg-white/80 dark:bg-gray-900/80 overflow-hidden flex items-center justify-center mx-1.5 mt-1 sm:mb-2 rounded-md">
-    <section class="relative rounded-md not-prose mx-1 my-1 bg-white/75 dark:bg-gray-900/90">
+    <div>
+    <PageWrapper>
+      <Headline
+        title={"Meet the KOIN Team"}
+        subtitle={"An experienced team with support from a growing community."}
+        highlight={"Team"}
+      />
+      {/* Page content goes here */}
+    </PageWrapper>
 
-    <Image
+<section class="bg-white dark:bg-gray-900">
+<div class=" mx-auto  ">
+<div class="py-2  mx-auto bg-gray-200 dark:bg-gray-900  lg:py-2 lg:px-2">
+ 
+  
+<Image
     src="/images/team.jpg"
     layout="constrained"
     width={1920}
@@ -18,10 +30,14 @@ export default component$(() => {
     priority={true}
   />
 
-  <Stats/>
-  
-  </section>
-  </div>
 
+  </div>
+</div>
+
+</section>
+</div>
   );
 });
+
+
+

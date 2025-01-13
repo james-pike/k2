@@ -1,25 +1,46 @@
 import { component$ } from '@builder.io/qwik';
-import { Image } from "@unpic/qwik";
+import { Headline } from '../ui/Headline';
+import { PageWrapper } from '../common/PageWrapper';
 import Stats from './Stats';
-
+import { Image } from "@unpic/qwik";
 
 export default component$(() => {
   return (
-    <div class="relative bg-white/80 dark:bg-gray-900/80 overflow-hidden flex items-center justify-center mx-1.5 mt-1 sm:mb-2 rounded-md">
-    <section class="relative rounded-md not-prose mx-1 my-1 bg-white/75 dark:bg-gray-900/90">
-<Stats/>
-    <Image
-    src="/images/ranks.jpg"
-    layout="constrained"
-    width={1920}
-    height={1080}
-    alt="Full-Width Hero Image"
-    class="w-full h-auto object-cover rounded-sm"
-    priority={true}
-  />
-  
-  </section>
-  </div>
+    <div>
+    <PageWrapper>
+      <Headline
+        title={"KOIN Tokenomics"}
+        subtitle={"Fairly launched and community driven."}
+        highlight={"Tokenomics"}
+      />
+      {/* Page content goes here */}
+    </PageWrapper>
 
+<section class="bg-white dark:bg-gray-900">
+<div class=" mx-auto  ">
+<div class="py-2  mx-auto bg-gray-200 dark:bg-gray-900  lg:py-2 lg:px-2">
+ 
+  <Stats/>
+
+       <Image
+       
+                  src="/images/ranks.jpg"
+                  layout="constrained"
+                  width={1920}
+                  height={1080}
+                  alt="Qwind Hero Image (Cool dog)"
+                  class="mx-auto w-full h-auto rounded-md"
+                  priority={true}
+                  breakpoints={[320, 480, 640, 768, 1024]}
+                />
+
+  </div>
+</div>
+
+</section>
+</div>
   );
 });
+
+
+

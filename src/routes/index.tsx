@@ -16,7 +16,7 @@ export default component$(() => {
       <Features id="Exchanges"
         highlight="Exchanges"
         title="Where to Buy KOIN"
-        subtitle="We're currently listed on Chainge, Kaspiano and KSPR Bot with more exchanges coming soon."
+        subtitle="We're currently listed on Chainge, KRC20Swap, Kaspiano and KSPR Bot with more exchanges coming soon."
         items={[
         
         ]}
