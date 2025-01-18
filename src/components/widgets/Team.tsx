@@ -12,7 +12,7 @@ export default component$(() => {
         subtitle={"An experienced team with support from a growing community."}
         highlight={"Team"}
       />
-      {/* Page content goes here */}
+      {/* Page contents goes here */}
     </PageWrapper>
 
 <section class="bg-white dark:bg-gray-900">
