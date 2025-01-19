@@ -8,7 +8,7 @@ export default component$(() => {
   return (
     <div class="relative bg-white/80 dark:bg-gray-900/80 overflow-hidden flex items-center justify-center mx-1.5 mt-1 mb-2 rounded-md">
 
-<section class="relative rounded-md not-prose mx-1.5 my-1.5 bg-white/90 dark:bg-gray-900/90">
+<section class="relative rounded-md not-prose mx-1.5 my-1.5 bg-white/80 dark:bg-gray-900/80">
 
       <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
